@@ -1,0 +1,50 @@
+
+
+						{
+                            this.props.profiles.map(
+                                (item, index) => <span> {item.sex == "M" && <li key={index}>{item.name} - {item.sex}</li>}</span>
+                            )
+                        }
+
+nodemon
+npm install -g create-react-app
+npm install redux react-redux
+Redux Dev Tools : extension in browser
+redux-devtools-extension: NPM package
+npm install redux-thunk
+npm install json-server
+
+
+1) npm install --save prop-types
+2) React Routing : npm install --save react-router-dom
+
+
+1)Props: 
+	1) It is Read only
+	2) We need to use it in constructor
+	3) It is used in immidiate child of parent
+		
+2) State : 
+	1) It is used to locally i.e. u can caopy value from props and modify it in the state variable.
+	2) use function this.setSatate()
+	3)
+
+3) Context : 
+	1) Used to pass value from parent to any child 
+	2) 
+
+
+3) Fragment: it is used in jsx to send data without using any html element.
+
+4) Redux: used to centralised state management.
+
+
+
+
+
+=================== To Do ==============================
+
+1) Show data on both side
+2) HOC not working
+3) Search not working --- handleSearch in Home.jsx
+4) 
